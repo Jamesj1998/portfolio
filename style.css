@@ -1,0 +1,25 @@
+    body {
+         display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    /* Set the height of the body to 100% viewport height */
+                    margin: 0;
+                    /* Remove default margin for the body */
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+h1, h2{
+            font-size: 2.25rem;
+                line-height: 1;
+                letter-spacing: 0.2rem;
+            
+        font-style: 36px "Source Sans Pro", sans-serif;
+    color: #ffffff;
+}
+
+h1{
+    display: flex;
+    justify-content: space-around;
+}
